@@ -1,0 +1,58 @@
+<table class="table table-stripped">
+    <thead>
+          <th>Sno</th>
+          <th>name</th>
+          <th>Job</th> 
+          <th>City</th>
+    </thead>
+    <tbody>
+        <tr>
+          <td>1</td>
+          <td>Bharathi</td>
+          <td>FrontEnd Developer</td>
+          <td>Chicago</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Narayana</td>
+          <td>Data Engineer</td>
+          <td>Frisco</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Himaja</td>
+          <td>FullStack Developer</td>
+          <td>Rhode Island</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Revathi</td>
+            <td>DayCare Teacher</td>
+            <td>Mckiney</td>
+        </tr>
+    </tbody>
+</table>
+
+<table class="table table-stripped">
+    <thead>
+          <th>Sno</th>
+          <th>name</th>
+          <th>Job</th> 
+          <th>City</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let t of Tasks; let i = index">
+          <td>{{i+1}}</td>
+          <td>{{t.name}}</td>
+          <td>{{t.Job}}</td>
+          <td>{{t.City}}</td>
+        </tr>
+        
+    </tbody>
+</table>
+
+
+
+
+
+
